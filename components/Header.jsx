@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, NavLink, redirect, useNavigate } from "react-router-dom"
+import login from "../assets/images/avatar-icon.png"
 
 export default function Header() {
     const isLoggedIn = localStorage.getItem("loggedin")
@@ -47,7 +48,7 @@ export default function Header() {
                 </NavLink>
                 <Link to="login" className={`login-link ${signIn()}`}>
                     <img 
-                        src="../assets/images/avatar-icon.png" 
+                        src={login}
                         className={`login-icon ${signIn()}`}
                     />
                 </Link>

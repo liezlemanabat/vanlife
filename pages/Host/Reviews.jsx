@@ -1,4 +1,5 @@
 import React from "react"
+import reviewGraph from "/assets/images/reviews-graph.png"
 
 export default function Reviews() {
     const reviewsData = [
@@ -28,7 +29,7 @@ export default function Reviews() {
             </div>
             <img
                 className="graph"
-                src="/assets/images/reviews-graph.png"
+                src={reviewGraph}
                 alt="Review graph"
             />
             <h3 className="reviews">Reviews (2)</h3>
