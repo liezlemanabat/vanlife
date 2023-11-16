@@ -734,10 +734,15 @@ img.graph {
         grid-template-rows: auto;
         gap: 3em;
         margin: 0 auto;
+        padding: 0 6.5em;
     }
     
     .host-income .info-header > h3 {
         margin-top: 1em;
+    }
+
+    .host-reviews {
+        padding-top: 1em;
     }
 }
 
